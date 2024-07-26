@@ -37,7 +37,9 @@ main{
 }
 .nota{
     /*background: #ebf1e6;*/
+
     height: auto;
+    min-height: 220px;
     min-width: 320px;
     width: auto;
     border-radius: 8px;
@@ -45,17 +47,27 @@ main{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 .tDia{
+    display: flex;
+    justify-content: space-between;
     text-shadow: 5px;
     background: green;
     color: white;
-    padding: 3% 2%;
+    padding: 3% 3%;
     border-top-left-radius: 8px;
     border-top-right-radius:8px;
     font-size: 20px;
     text-shadow: 5px 5px 5px rgba(0, 0.2, 0, 0.3);
 }
+#nota{
+    background: #C8D48C;
+}
+.tDia img{
+    height: 30px;
+    width: 30px;
+}
 .lista{
     padding: 2% 2%;
+    color: #262123;
 }
 #Ass{
   display: flex;
