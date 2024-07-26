@@ -88,6 +88,7 @@ main{
 }
 .nt .titulo{
     font-size: 18px;
+    color: green;
 }
 .nt .info{
     /*background: #d7eec8;*/
