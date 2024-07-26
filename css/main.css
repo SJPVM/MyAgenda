@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+}
+.topBar{
+    background: green;
+    color: white;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    width: 100%;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 2%;
+    /*background: red;*/
+}
+.nota{
+    /*background: #ebf1e6;*/
+    height: 275px;
+    min-width: 320px;
+    width: auto;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+.tDia{
+    text-shadow: 5px;
+    background: green;
+    color: white;
+    padding: 3% 2%;
+    border-top-left-radius: 8px;
+    border-top-right-radius:8px;
+    font-size: 20px;
+    text-shadow: 5px 5px 5px rgba(0, 0.2, 0, 0.3);
+}
+.lista{
+    padding: 2% 2%;
+}
+#Ass{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+#Ass .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    gap: 5px;
+    font-size: 30px;
+}
+#Ass .info img{
+    height: 30px;
+    width: 30px;
+}
+.nt .titulo{
+    font-size: 18px;
+}
+.nt .info{
+    /*background: #d7eec8;*/
+    padding: 5px 2px;
+    max-width: 320px;
+}
+.nt .info button{
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 8px 10px;
+    color: white;
+    background: green;
+    font-size: 16px;
+}
