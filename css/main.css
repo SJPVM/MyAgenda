@@ -36,7 +36,7 @@ main{
 }
 .nota{
     /*background: #ebf1e6;*/
-    height: 275px;
+    height: auto;
     min-width: 320px;
     width: auto;
     border-radius: 8px;
